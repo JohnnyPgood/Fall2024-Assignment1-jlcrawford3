@@ -18,26 +18,56 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
   background-color: #2c3e50;
   color: #ecf0f1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#content {
+#Content {
   text-align: center;
+  max-width: 60%;
+  width: 100%;
+  margin: 0 auto;
+  flex-grow: 1;
 }
 
 #CoverArt {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 30%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+  border: 0.5rem solid black;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.iframe-container::before {
+    content: "";
+    padding-top: 56.25%;
+    display: block;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#Summary {
+  margin-top: 2rem;
 }
 
 a {
