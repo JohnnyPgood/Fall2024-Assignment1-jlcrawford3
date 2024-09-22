@@ -9,22 +9,24 @@
 </head>
 <body>
     <div id="Content">
-        <img id="CoverArt" src="media/coverart.jpg" alt="Cover art">
-        <h1 id="Title">Title</h1>
-        <h5 id="Rating">IMDB Rating:</h5>
+        <div id="ErrorMessage"></div>
+        <img id="CoverArt" src="media/coverart.jpg" alt="">
+        <h1 id="Title"></h1>
+        <h5 id="Rating"></h5>
         <div class="iframe-container">
             <iframe src="https://www.youtube.com/embed/9SsLdTTsm_M" 
                     title="Primer (2004) -  Trailer" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
         </div>
-        <p id="Summary">Summary</p>
-        <cite id="Citation">Source: <a id="IMDBLink" href="https://www.imdb.com/" target="_blank">IMDB</a></cite>
-        <ul id="Actors">
-            <li>Actor 1</li>
-            <li>Actor 2</li>
-            <li>Actor 3</li>
-        </ul>
+        <p id="Summary"></p>
+        <cite id="Citation">Source: 
+            <a id="IMDBLink" href="" target="_blank">IMDB</a>
+        </cite>
+        <div id="ActorsContainer">
+            <h3>Actors</h3>
+            <ul id="Actors"></ul>
+        </div>
     </div>
     <script src="js/site.js"></script>
 </body>
