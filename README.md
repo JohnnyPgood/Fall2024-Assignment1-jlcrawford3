@@ -33,3 +33,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Course: CS330 - Web Development
 - Semester: Fall 2024
 - Author: JP Crawford
+
+For this assignment's preparation, the author has utilized *Claude* (3.5 Sonnet), a language model created by *Anthropic*. Within this assignment, Claude was used for CSS purposes such as developing a glowing border effect, and JS purposes such as improving the API integration.
