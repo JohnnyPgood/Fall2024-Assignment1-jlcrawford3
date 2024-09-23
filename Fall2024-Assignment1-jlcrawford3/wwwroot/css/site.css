@@ -1,3 +1,5 @@
+/* JP Crawford */
+
 html {
   font-size: 14px;
 }
@@ -63,7 +65,7 @@ body {
   background-color: rgba(238, 237, 231, 0.8);
   padding: 10rem;
   border-radius: 3px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   background-image: url('/media/paper.jpg');
   background-position: top center;
   background-repeat: repeat-y;
